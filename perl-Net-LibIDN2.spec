@@ -13,6 +13,7 @@ BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Devel::CheckLib)
 BuildRequires:	perl(ExtUtils::CBuilder)
 BuildRequires:	perl(ExtUtils::ParseXS)
+BuildRequires:	perl(Test::More)
 BuildRequires:	pkgconfig(libidn2)
 
 %description
