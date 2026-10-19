@@ -15,6 +15,8 @@ BuildRequires:	perl(ExtUtils::CBuilder)
 BuildRequires:	perl(ExtUtils::ParseXS)
 BuildRequires:	perl(Test::More)
 BuildRequires:	pkgconfig(libidn2)
+# idn2_lookup_ul tests setlocale to en_US.ISO8859-1. The converter lives here.
+BuildRequires:	locales-extra-charsets
 
 %description
 Net::LibIDN2 is a Perl interface to GNU Libidn2, which implements
